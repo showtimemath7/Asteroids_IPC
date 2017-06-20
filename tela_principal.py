@@ -60,7 +60,7 @@ class Game:
 
     def _init_screen(self):
         self.screen = pygame.display.set_mode((956, 560), 0, 32)
-        pygame.display.set_caption('DevInVale 2015')
+        pygame.display.set_caption('Asteroids')
 
     def _init_sound(self):
         pygame.mixer.pre_init(44100, 32, 2, 4096)
